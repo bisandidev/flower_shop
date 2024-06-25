@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.flowers, .flower-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flower-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.flower-item img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
